@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<meta name="referrer" content="no-referrer">
+<meta name="robots" content="noindex, nofollow">
+<meta name="description" content="Friend invite for SPERMAN: The Egg Hunt. Arkadaşlık daveti.">
+<title>SPERMAN — Friend invite / Arkadaşlık daveti</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #faf8f3;
+    --surface: #ffffff;
+    --text: #1e1c18;
+    --muted: #5d584e;
+    --border: #e4dfd3;
+    --accent: #8a5d00;
+    --accent-soft: #f6ecd2;
+    --on-accent: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #131210;
+      --surface: #1c1a16;
+      --text: #ece7dc;
+      --muted: #a69f90;
+      --border: #332e26;
+      --accent: #e5b745;
+      --accent-soft: #2a2415;
+      --on-accent: #1e1c18;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 0 16px; }
+  .site-header { border-bottom: 1px solid var(--border); }
+  .site-header .wrap {
+    display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between;
+    gap: 8px 16px; padding-top: 14px; padding-bottom: 14px;
+  }
+  .brand { font-weight: 800; letter-spacing: .08em; color: var(--text); text-decoration: none; }
+  .brand::before {
+    content: ""; display: inline-block; width: .62em; height: .8em; margin-right: .45em;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%; background: var(--accent); vertical-align: -.05em;
+  }
+  .site-nav { display: flex; flex-wrap: wrap; gap: 4px 16px; font-size: .95rem; }
+  a { color: var(--accent); text-underline-offset: 2px; overflow-wrap: anywhere; }
+  a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 2px; }
+  h1 { font-size: 1.9rem; line-height: 1.2; margin: 32px 0 8px; overflow-wrap: anywhere; }
+  h2 { font-size: 1.2rem; line-height: 1.3; margin: 32px 0 8px; }
+  p, ul, ol { margin: 0 0 12px; }
+  ul, ol { padding-left: 1.4em; }
+  li { margin-bottom: 6px; }
+  .eyebrow { margin: 32px 0 0; color: var(--muted); font-size: .85rem; letter-spacing: .06em; text-transform: uppercase; }
+  .eyebrow + h1 { margin-top: 4px; }
+  .who { color: var(--accent); }
+  .lede { color: var(--muted); font-size: 1.05rem; }
+  .actions { display: flex; flex-direction: column; gap: 12px; margin: 24px 0; }
+  .cta {
+    display: block; text-align: center; text-decoration: none; font-weight: 800; letter-spacing: .04em;
+    font-size: 1.15rem; padding: 18px 16px; border-radius: 12px; min-height: 56px;
+    background: var(--accent); color: var(--on-accent); border: 2px solid var(--accent);
+  }
+  .cta[aria-disabled="true"] { opacity: .45; pointer-events: none; }
+  .cta--quiet { background: transparent; color: var(--accent); font-weight: 700; font-size: 1rem; padding: 14px 16px; }
+  .card {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 12px;
+    padding: 16px; margin: 20px 0;
+  }
+  .card h2 { margin-top: 0; font-size: 1.1rem; }
+  .card p:last-child, .card ol:last-child { margin-bottom: 0; }
+  .summary {
+    background: var(--accent-soft); border-left: 3px solid var(--accent);
+    padding: 12px 16px; border-radius: 0 8px 8px 0; margin: 20px 0;
+  }
+  .meta { color: var(--muted); font-size: .9rem; }
+  .lang-break { border: 0; border-top: 1px solid var(--border); margin: 48px 0 0; }
+  .site-footer { border-top: 1px solid var(--border); margin-top: 48px; color: var(--muted); font-size: .9rem; }
+  .site-footer .wrap { padding-top: 16px; padding-bottom: 32px; }
+  .site-footer p { margin: 0 0 6px; }
+  [hidden] { display: none !important; }
+</style>
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="../">SPERMAN</a>
+    <nav class="site-nav" aria-label="Languages / Diller">
+      <a href="#tr" hreflang="tr" lang="tr" data-lang="tr">Türkçe</a>
+      <a href="#en" hreflang="en" lang="en" data-lang="en">English</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section id="tr" lang="tr">
+    <p class="eyebrow">SPERMAN: The Egg Hunt</p>
+    <h1><span class="who" data-who>Birisi</span> seni SPERMAN'da arkadaşlığa davet ediyor</h1>
+    <p class="lede" data-ready>Davet SPERMAN uygulamasında kabul edilir. İki taraf da onaylayınca birbirinizin arkadaş listesinde olursunuz.</p>
+
+    <div class="actions">
+      <a class="cta" data-open href="sperman://friend" aria-disabled="true">SPERMAN'DA AÇ</a>
+      <a class="cta cta--quiet" href="https://apps.apple.com/app/id6823757681" rel="noopener">App Store'dan SPERMAN'ı indir</a>
+    </div>
+
+    <p class="summary" data-broken hidden>Bu davet bağlantısı eksik görünüyor. Arkadaşından SPERMAN'da AYARLAR › HESAP › PAYLAŞ ile yeni bir bağlantı göndermesini iste.</p>
+
+    <div class="card">
+      <h2>Nasıl çalışır?</h2>
+      <ol>
+        <li>SPERMAN'ı iPhone'una kur. Arkadaş özelliği <strong>1.1 sürümü ve sonrasında</strong> var; eski sürümlerde yok.</li>
+        <li>Bu sayfayı iPhone'unda aç ve <strong>SPERMAN'DA AÇ</strong> düğmesine dokun.</li>
+        <li>Oyunda davet kartı çıkar: <strong>KABUL ET</strong>. Arkadaşın isteği ARKADAŞLAR › İSTEKLER'de görüp onaylayınca ikiniz de listede olursunuz. İstersen REDDET ya da ENGELLE.</li>
+      </ol>
+    </div>
+
+    <p class="meta">Uygulaman yoksa: yukarıdaki ad, arkadaşının SPERMAN takma adıdır. Takma ad yalnızca gösterilir; arkadaşlık isteği oyunun hesap kimliğine gider.</p>
+    <p class="meta">Gizlilik: davet, adresin <code>#</code> işaretinden sonraki kısmında durur. Bu kısım tarayıcından hiçbir sunucuya gönderilmez; sayfa çerez, analiz aracı ya da dış kaynak kullanmaz.</p>
+  </section>
+
+  <hr class="lang-break">
+
+  <section id="en" lang="en">
+    <p class="eyebrow">SPERMAN: The Egg Hunt</p>
+    <h1><span class="who" data-who>Someone</span> invites you to be friends in SPERMAN</h1>
+    <p class="lede" data-ready>The invite is accepted in the SPERMAN app. When both sides approve, you are on each other's friends list.</p>
+
+    <div class="actions">
+      <a class="cta" data-open href="sperman://friend" aria-disabled="true">OPEN IN SPERMAN</a>
+      <a class="cta cta--quiet" href="https://apps.apple.com/app/id6823757681" rel="noopener">Get SPERMAN on the App Store</a>
+    </div>
+
+    <p class="summary" data-broken hidden>This invite link looks incomplete. Ask your friend to send a new one from SPERMAN: SETTINGS › ACCOUNT › SHARE.</p>
+
+    <div class="card">
+      <h2>How it works</h2>
+      <ol>
+        <li>Install SPERMAN on your iPhone. The friends feature is in <strong>version 1.1 and later</strong>; older versions don't have it.</li>
+        <li>Open this page on your iPhone and tap <strong>OPEN IN SPERMAN</strong>.</li>
+        <li>An invite card appears in the game: tap <strong>ACCEPT</strong>. Your friend sees the request under FRIENDS › REQUESTS and approves it, and you are both on the list. You can also DECLINE or BLOCK.</li>
+      </ol>
+    </div>
+
+    <p class="meta">Don't have the app? The name above is your friend's SPERMAN nickname. It is only displayed; the friend request goes to the game's account ID.</p>
+    <p class="meta">Privacy: the invite sits in the part of the address after the <code>#</code>. Your browser never sends that part to any server, and this page uses no cookies, analytics or external resources.</p>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p><a href="../#tr" hreflang="tr" lang="tr">Destek</a> · <a href="../#en" hreflang="en" lang="en">Support</a> · <a href="../gizlilik/" hreflang="tr" lang="tr">Gizlilik</a> · <a href="../privacy/" hreflang="en" lang="en">Privacy</a></p>
+    <p>© 2026 Atilla Cilesiz</p>
+  </div>
+</footer>
+
+<script>
+(function () {
+  "use strict";
+  // The invite is in the fragment (#p=PLAYERID&n=NICKNAME): it never reaches a server. Everything is validated before it is shown.
+  var params = {};
+  try {
+    (location.hash || "").replace(/^#/, "").split("&").forEach(function (pair) {
+      var eq = pair.indexOf("=");
+      if (eq <= 0) return;
+      var key = pair.slice(0, eq);
+      if (key !== "p" && key !== "n") return;
+      var value = "";
+      try { value = decodeURIComponent(pair.slice(eq + 1)); } catch (e) { value = ""; }
+      if (!(key in params)) params[key] = value;
+    });
+  } catch (e) { params = {}; }
+
+  var id = /^[A-Za-z0-9_-]{6,64}$/.test(params.p || "") ? params.p : "";
+  var nick = (params.n || "").toUpperCase();
+  nick = /^[A-Z][A-Z0-9_]{2,15}$/.test(nick) ? nick : "";
+
+  var sections = { tr: document.getElementById("tr"), en: document.getElementById("en") };
+  var link = id ? "sperman://friend?p=" + encodeURIComponent(id) + (nick ? "&n=" + encodeURIComponent(nick) : "") : "";
+
+  Object.keys(sections).forEach(function (code) {
+    var section = sections[code];
+    section.querySelectorAll("[data-who]").forEach(function (el) { if (nick) el.textContent = nick; });
+    section.querySelectorAll("[data-open]").forEach(function (el) {
+      if (link) { el.setAttribute("href", link); el.removeAttribute("aria-disabled"); }
+    });
+    section.querySelectorAll("[data-broken]").forEach(function (el) { el.hidden = !!link; });
+    section.querySelectorAll("[data-ready]").forEach(function (el) { el.hidden = !link; });
+  });
+
+  // One language at a time, the browser's own first; without script both are shown, one under the other.
+  function show(code) {
+    sections.tr.hidden = code !== "tr";
+    sections.en.hidden = code !== "en";
+    document.documentElement.lang = code;
+    document.querySelector(".lang-break").hidden = true;
+  }
+  var language = ((navigator.languages && navigator.languages[0]) || navigator.language || "en").toLowerCase();
+  show(language.indexOf("tr") === 0 ? "tr" : "en");
+  document.querySelectorAll("[data-lang]").forEach(function (a) {
+    a.addEventListener("click", function (event) { event.preventDefault(); show(a.getAttribute("data-lang")); });
+  });
+})();
+</script>
+</body>
+</html>
